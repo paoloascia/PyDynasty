@@ -1,0 +1,89 @@
+{
+"name": "DATABASE_BINARY_D3PART",
+"id": null,
+"cards": [
+{
+"name": "card_1",
+"singleORcolumn": true,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "dt",
+	"value": 0.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "lcdt",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "beam",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "npltc",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "psetid",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+}
+]
+},
+
+{
+"name": "card_2",
+"singleORcolumn": true,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "hsetid",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "bsetid",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "ssetid",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "tsetid",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+}
+]
+}
+
+]
+}

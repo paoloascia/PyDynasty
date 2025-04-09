@@ -1,0 +1,89 @@
+{
+"name": "DEFINE_CURVE_FEEDBACK",
+"id": 1,
+"cards": [
+{
+"name": "card_1",
+"singleORcolumn": true,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "lcid",
+	"value": 1,
+    "type": "int",
+    "field_width": 10,
+	"id": true
+},
+{
+	"name": "pid",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "boxid",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "fldid",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+}
+]
+},
+
+{
+"name": "card_2",
+"singleORcolumn": true,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "fsl",
+	"value": 0.0,
+    "type": "float",
+    "field_width": 10,
+	"id": true
+},
+{
+	"name": "tsl",
+	"value": 0.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "sff",
+	"value": 1.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "sft",
+	"value": 1.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "bias",
+	"value": 0.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+}
+]
+}
+
+]
+}

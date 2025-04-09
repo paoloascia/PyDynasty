@@ -1,0 +1,96 @@
+{
+"name": "DEFINE_CURVE_TRIM_2D",
+"id": 1,
+"cards": [
+{
+"name": "card_1",
+"singleORcolumn": true,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "tcid",
+	"value": 1,
+    "type": "int",
+    "field_width": 10,
+	"id": true
+},
+{
+	"name": "tctype",
+	"value": 1,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "tflg",
+	"value": -1,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "tdir",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "tctol",
+	"value": 0.25,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "depth",
+	"value": 0.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "nseed1",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "nseed2",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+}
+]
+},
+
+{
+"name": "card_2",
+"singleORcolumn": false,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "cx",
+	"value": [[], []],
+    "type": "float",
+    "field_width": 20,
+	"id": true
+},
+{
+	"name": "cy",
+	"value": [[], []],
+    "type": "float",
+    "field_width": 20,
+	"id": false
+}
+]
+}
+
+]
+}

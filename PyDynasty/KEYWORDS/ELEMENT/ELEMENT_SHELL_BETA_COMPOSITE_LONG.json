@@ -1,0 +1,176 @@
+{
+"name": "ELEMENT_SHELL_BETA_COMPOSITE_LONG",
+"id": 1,
+"cards": [
+{
+"name": "card_1",
+"singleORcolumn": true,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "eid",
+	"value": 1,
+    "type": "int",
+    "field_width": 8,
+	"id": true
+},
+{
+	"name": "pid",
+	"value": 0,
+    "type": "int",
+    "field_width": 8,
+	"id": false
+},
+{
+	"name": "n1",
+	"value": 0,
+    "type": "int",
+    "field_width": 8,
+	"id": false
+},
+{
+	"name": "n2",
+	"value": 0,
+    "type": "int",
+    "field_width": 8,
+	"id": false
+},
+{
+	"name": "n3",
+	"value": 0,
+    "type": "int",
+    "field_width": 8,
+	"id": false
+},
+{
+	"name": "n4",
+	"value": 0,
+    "type": "int",
+    "field_width": 8,
+	"id": false
+},
+{
+	"name": "n5",
+	"value": 0,
+    "type": "int",
+    "field_width": 8,
+	"id": false
+},
+{
+	"name": "n6",
+	"value": 0,
+    "type": "int",
+    "field_width": 8,
+	"id": false
+},
+{
+	"name": "n7",
+	"value": 0,
+    "type": "int",
+    "field_width": 8,
+	"id": false
+},
+{
+	"name": "n8",
+	"value": 0,
+    "type": "int",
+    "field_width": 8,
+	"id": false
+}
+]
+},
+
+{
+"name": "card_2",
+"singleORcolumn": true,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "thic1",
+	"value": 0.0,
+    "type": "float",
+    "field_width": 16,
+	"id": false
+},
+{
+	"name": "thic2",
+	"value": 0.0,
+    "type": "float",
+    "field_width": 16,
+	"id": false
+},
+{
+	"name": "thic3",
+	"value": 0.0,
+    "type": "float",
+    "field_width": 16,
+	"id": false
+},
+{
+	"name": "thic4",
+	"value": 0.0,
+    "type": "float",
+    "field_width": 16,
+	"id": false
+},
+{
+	"name": "beta",
+	"value": 0.0,
+    "type": "float",
+    "field_width": 16,
+	"id": false
+}
+]
+},
+
+{
+"name": "card_3",
+"singleORcolumn": false,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "mid1",
+	"value": [[], []],
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "thick1",
+	"value": [[], []],
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "b1",
+	"value": [[], []],
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "unused",
+	"value": [[], []],
+    "type": "str",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "plyid1",
+	"value": [[], []],
+    "type": "int",
+    "field_width": 10,
+	"id": false
+}
+]
+}
+
+]
+}

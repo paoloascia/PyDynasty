@@ -1,0 +1,96 @@
+{
+"name": "TEST_VECTOR",
+"id": null,
+"cards": [
+{
+"name": "card_1",
+"singleORcolumn": true,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "title",
+	"value": "Test of vectorial variables without optional cards",
+	"type": "str",
+	"field_width": 90,
+	"id": false
+}
+]
+},
+
+{
+"name": "card_2",
+"singleORcolumn": false,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "svip",
+	"value": [1, 2],
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "svin",
+	"value": [-1, -2],
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "svfps",
+	"value": [1.0, 2.0],
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "svfns",
+	"value": [-1.0, -2.0],
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "svfpl",
+	"value": [12345678900.123456789, 23456789100.234567891],
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "svfnl",
+	"value": [-12345678900.123456789, -23456789100.234567891],
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "svfpsmal",
+	"value": [0.00000000000123456789, 0.00000000000234567891],
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "svfnsmal",
+	"value": [-0.00000000000123456789, -0.00000000000234567891],
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "svstr",
+	"value": ["random_string_one", "random_string_two"],
+    "type": "str",
+    "field_width": 10,
+	"id": false
+}
+]
+}
+
+]
+}

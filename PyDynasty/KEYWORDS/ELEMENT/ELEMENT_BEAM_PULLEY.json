@@ -1,0 +1,72 @@
+{
+"name": "ELEMENT_BEAM_PULLEY",
+"id": null,
+"cards": [
+{
+"name": "card_1",
+"singleORcolumn": false,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "puid",
+	"value": [[], []],
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "bid1",
+	"value": [[], []],
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "bid2",
+	"value": [[], []],
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "pnid",
+	"value": [[], []],
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "fd",
+	"value": [0.0, 0.0],
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "fs",
+	"value": [0.0, 0.0],
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "lmin",
+	"value": [0.0, 0.0],
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "dc",
+	"value": [0.0, 0.0],
+    "type": "float",
+    "field_width": 10,
+	"id": false
+}
+]
+}
+
+]
+}

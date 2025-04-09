@@ -1,0 +1,241 @@
+{
+"name": "TEST_SCALAR_OPTIONAL",
+"id": 0,
+"cards": [
+{
+"name": "card_1",
+"singleORcolumn": true,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "title",
+	"value": "Test of scalar variables with optional cards",
+	"type": "str",
+	"field_width": 90,
+	"id": false
+}
+]
+},
+
+{
+"name": "card_2",
+"singleORcolumn": true,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "id",
+	"value": 1,
+    "type": "int",
+    "field_width": 10,
+	"id": true
+},
+{
+	"name": "trig2",
+	"value": -1,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "var23",
+	"value": 1.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "var24",
+	"value": -1.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "var25",
+	"value": 12345678900.123456789,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "var26",
+	"value": -12345678900.123456789,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "var27",
+	"value": 0.00000000000123456789,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "var28",
+	"value": -0.00000000000123456789,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "var29",
+	"value": "random_long_string",
+    "type": "str",
+    "field_width": 10,
+	"id": false
+}
+]
+},
+{
+"name": "card_3",
+"singleORcolumn": true,
+"requirements": {"always": false,
+				 "variable": "trig2",
+				 "value": 1},
+"variables": [
+{
+	"name": "var31",
+	"value": 1,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "trig3",
+	"value": -1,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "var33",
+	"value": 1.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "var34",
+	"value": -1.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "var35",
+	"value": 12345678900.123456789,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "var36",
+	"value": -12345678900.123456789,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "var37",
+	"value": 0.00000000000123456789,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "var38",
+	"value": -0.00000000000123456789,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "var39",
+	"value": "random_long_string",
+    "type": "str",
+    "field_width": 10,
+	"id": false
+}
+]
+},
+
+{
+"name": "card_4",
+"singleORcolumn": true,
+"requirements": {"always": false,
+				 "variable": "trig3",
+				 "value": 1},
+"variables": [
+{
+	"name": "var41",
+	"value": 1,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "trig4",
+	"value": -1,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "var43",
+	"value": 1.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "var44",
+	"value": -1.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "var45",
+	"value": 12345678900.123456789,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "var46",
+	"value": -12345678900.123456789,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "var47",
+	"value": 0.00000000000123456789,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "var48",
+	"value": -0.00000000000123456789,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "var49",
+	"value": "random_long_string",
+    "type": "str",
+    "field_width": 10,
+	"id": false
+}
+]
+}
+
+]
+}

@@ -1,0 +1,61 @@
+{
+"name": "DEFINE_CURVE_COMPENSATION_CONSTRAINT_END",
+"id": 1,
+"cards": [
+{
+"name": "card_1",
+"singleORcolumn": true,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "crvid",
+	"value": 1,
+    "type": "int",
+    "field_width": 10,
+	"id": true
+},
+{
+	"name": "in/out",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+}
+]
+},
+
+{
+"name": "card_2",
+"singleORcolumn": false,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "x",
+	"value": [[], []],
+    "type": "float",
+    "field_width": 16,
+	"id": true
+},
+{
+	"name": "y",
+	"value": [[], []],
+    "type": "float",
+    "field_width": 16,
+	"id": false
+},
+{
+	"name": "z",
+	"value": [[], []],
+    "type": "float",
+    "field_width": 16,
+	"id": false
+}
+]
+}
+
+]
+}

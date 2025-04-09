@@ -1,0 +1,51 @@
+{
+"name": "DATABASE_BINARY_RUNRSF",
+"id": null,
+"cards": [
+{
+"name": "card_1",
+"singleORcolumn": true,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "cycl",
+	"value": 0.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "nr",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "beam",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "npltc",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "psetid",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+}
+]
+}
+
+]
+}

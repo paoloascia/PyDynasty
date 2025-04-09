@@ -1,0 +1,30 @@
+{
+"name": "DATABASE_HISTORY_SEATBELT_ID",
+"id": null,
+"cards": [
+{
+"name": "card_1",
+"singleORcolumn": false,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "id1",
+	"value": [[], []],
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "heading",
+	"value": [[], []],
+    "type": "str",
+    "field_width": 70,
+	"id": false
+}
+]
+}
+
+]
+}

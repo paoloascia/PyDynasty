@@ -1,0 +1,86 @@
+{
+"name": "ELEMENT_SHELL",
+"id": null,
+"cards": [
+{
+"name": "card_1",
+"singleORcolumn": false,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "eid",
+	"value": [[], []],
+    "type": "int",
+    "field_width": 8,
+	"id": false
+},
+{
+	"name": "pid",
+	"value": [[], []],
+    "type": "int",
+    "field_width": 8,
+	"id": false
+},
+{
+	"name": "n1",
+	"value": [[], []],
+    "type": "int",
+    "field_width": 8,
+	"id": false
+},
+{
+	"name": "n2",
+	"value": [[], []],
+    "type": "int",
+    "field_width": 8,
+	"id": false
+},
+{
+	"name": "n3",
+	"value": [[], []],
+    "type": "int",
+    "field_width": 8,
+	"id": false
+},
+{
+	"name": "n4",
+	"value": [[], []],
+    "type": "int",
+    "field_width": 8,
+	"id": false
+},
+{
+	"name": "n5",
+	"value": [[], []],
+    "type": "int",
+    "field_width": 8,
+	"id": false
+},
+{
+	"name": "n6",
+	"value": [[], []],
+    "type": "int",
+    "field_width": 8,
+	"id": false
+},
+{
+	"name": "n7",
+	"value": [[], []],
+    "type": "int",
+    "field_width": 8,
+	"id": false
+},
+{
+	"name": "n8",
+	"value": [[], []],
+    "type": "int",
+    "field_width": 8,
+	"id": false
+}
+]
+}
+
+]
+}

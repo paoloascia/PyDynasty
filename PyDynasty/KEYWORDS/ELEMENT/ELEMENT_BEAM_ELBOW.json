@@ -1,0 +1,68 @@
+{
+"name": "ELEMENT_BEAM_ELBOW",
+"id": 1,
+"cards": [
+{
+"name": "card_1",
+"singleORcolumn": true,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "eid",
+	"value": 1,
+    "type": "int",
+    "field_width": 8,
+	"id": true
+},
+{
+	"name": "pid",
+	"value": 0,
+    "type": "int",
+    "field_width": 8,
+	"id": false
+},
+{
+	"name": "n1",
+	"value": 0,
+    "type": "int",
+    "field_width": 8,
+	"id": false
+},
+{
+	"name": "n2",
+	"value": 0,
+    "type": "int",
+    "field_width": 8,
+	"id": false
+},
+{
+	"name": "n5",
+	"value": 0,
+    "type": "int",
+    "field_width": 8,
+	"id": false
+}
+]
+},
+
+{
+"name": "card_2",
+"singleORcolumn": true,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "n3",
+	"value": 0,
+    "type": "int",
+    "field_width": 8,
+	"id": false
+}
+]
+}
+
+]
+}

@@ -1,0 +1,51 @@
+{
+"name": "DATABASE_BINARY_PBMFOR",
+"id": null,
+"cards": [
+{
+"name": "card_1",
+"singleORcolumn": true,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "dt",
+	"value": 0.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "lcdt",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "beam",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "npltc",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "psetid",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+}
+]
+}
+
+]
+}

@@ -1,0 +1,37 @@
+{
+"name": "DATABASE_BINARY_D3PROP",
+"id": null,
+"cards": [
+{
+"name": "card_1",
+"singleORcolumn": true,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "ifile",
+	"value": 1,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "imatl",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "iwall",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+}
+]
+}
+
+]
+}

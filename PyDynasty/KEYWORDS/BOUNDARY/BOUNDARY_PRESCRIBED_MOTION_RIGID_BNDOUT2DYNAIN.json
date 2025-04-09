@@ -1,0 +1,134 @@
+{
+"name": "BOUNDARY_PRESCRIBED_MOTION_RIGID_BNDOUT2DYNAIN",
+"id": null,
+"cards": [
+{
+"name": "card_1",
+"singleORcolumn": true,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "pid",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "dof",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "vad",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "lcid",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "sf",
+	"value": 1.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "vid",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "death",
+	"value": 1.00000E28,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "birth",
+	"value": 0.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+}
+]
+},
+
+{
+"name": "card_2",
+"singleORcolumn": true,
+"requirements": {"always": false,
+				 "variable": "vad",
+				 "value": 4},
+"variables": [
+{
+	"name": "offset1",
+	"value": 0.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "offset2",
+	"value": 0.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "lrb",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "node1",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "node2",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+}
+]
+},
+
+{
+"name": "card_3",
+"singleORcolumn": true,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "prmr",
+	"value": " ",
+    "type": "str",
+    "field_width": 10,
+	"id": false
+}
+]
+}
+
+]
+}

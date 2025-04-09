@@ -1,0 +1,96 @@
+{
+"name": "TEST_SCALAR",
+"id": 0,
+"cards": [
+{
+"name": "card_1",
+"singleORcolumn": true,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "title",
+	"value": "Test of scalar variables without optional cards",
+	"type": "str",
+	"field_width": 90,
+	"id": false
+}
+]
+},
+
+{
+"name": "card_2",
+"singleORcolumn": true,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "svip",
+	"value": 1,
+    "type": "int",
+    "field_width": 10,
+	"id": true
+},
+{
+	"name": "svin",
+	"value": -1,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "svfps",
+	"value": 1.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "svfns",
+	"value": -1.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "svfpl",
+	"value": 12345678900.123456789,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "svfnl",
+	"value": -12345678900.123456789,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "svfpsmal",
+	"value": 0.00000000000123456789,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "svfnsmal",
+	"value": -0.00000000000123456789,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "svstr",
+	"value": "random_long_string",
+    "type": "str",
+    "field_width": 10,
+	"id": false
+}
+]
+}
+
+]
+}

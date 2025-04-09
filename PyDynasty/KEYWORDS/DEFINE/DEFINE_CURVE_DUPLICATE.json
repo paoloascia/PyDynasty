@@ -1,0 +1,65 @@
+{
+"name": "DEFINE_CURVE_DUPLICATE",
+"id": 1,
+"cards": [
+{
+"name": "card_1",
+"singleORcolumn": true,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "lcid",
+	"value": 1,
+    "type": "int",
+    "field_width": 10,
+	"id": true
+},
+{
+	"name": "rlcid",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "sfa",
+	"value": 1.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "sfo",
+	"value": 1.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "offa",
+	"value": 0.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "offo",
+	"value": 0.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "dattyp",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+}
+]
+}
+
+]
+}

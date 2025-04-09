@@ -1,0 +1,44 @@
+{
+"name": "DATABASE_HISTORY_NODE_SET_LOCAL",
+"id": null,
+"cards": [
+{
+"name": "card_1",
+"singleORcolumn": false,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "id",
+	"value": [[], []],
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "cid",
+	"value": [[], []],
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "ref",
+	"value": [0, 0],
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "hfo",
+	"value": [0, 0],
+    "type": "int",
+    "field_width": 10,
+	"id": false
+}
+]
+}
+
+]
+}

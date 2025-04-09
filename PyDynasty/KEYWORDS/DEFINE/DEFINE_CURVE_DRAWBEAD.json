@@ -1,0 +1,82 @@
+{
+"name": "DEFINE_CURVE_DRAWBEAD",
+"id": 1,
+"cards": [
+{
+"name": "card_1",
+"singleORcolumn": true,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "cid",
+	"value": 1,
+    "type": "int",
+    "field_width": 10,
+	"id": true
+},
+{
+	"name": "tcype",
+	"value": 1,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "vid",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "pid",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "blkid",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "perct",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+}
+]
+},
+
+{
+"name": "card_2",
+"singleORcolumn": false,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "cx",
+	"value": [[], []],
+    "type": "float",
+    "field_width": 20,
+	"id": true
+},
+{
+	"name": "cy",
+	"value": [[], []],
+    "type": "float",
+    "field_width": 20,
+	"id": false
+}
+]
+}
+
+]
+}

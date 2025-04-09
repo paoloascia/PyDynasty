@@ -1,0 +1,72 @@
+{
+"name": "DATABASE_HISTORY_TSHELL",
+"id": null,
+"cards": [
+{
+"name": "card_1",
+"singleORcolumn": false,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "id1",
+	"value": [[], []],
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "id2",
+	"value": [[], []],
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "id3",
+	"value": [[], []],
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "id4",
+	"value": [[], []],
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "id5",
+	"value": [[], []],
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "id6",
+	"value": [[], []],
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "id7",
+	"value": [[], []],
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "id8",
+	"value": [[], []],
+    "type": "int",
+    "field_width": 10,
+	"id": false
+}
+]
+}
+
+]
+}

@@ -1,0 +1,47 @@
+{
+"name": "DEFINE_CURVE_TRIAXIAL_LIMIT_FROM_FLD",
+"id": 1,
+"cards": [
+{
+"name": "card_1",
+"singleORcolumn": true,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "lcid",
+	"value": 1,
+    "type": "int",
+    "field_width": 10,
+	"id": true
+}
+]
+},
+
+{
+"name": "card_2",
+"singleORcolumn": false,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "a1",
+	"value": [[], []],
+    "type": "float",
+    "field_width": 20,
+	"id": true
+},
+{
+	"name": "o1",
+	"value": [[], []],
+    "type": "float",
+    "field_width": 20,
+	"id": false
+}
+]
+}
+
+]
+}

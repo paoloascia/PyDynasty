@@ -1,0 +1,120 @@
+{
+"name": "DEFINE_CURVE_ENTITY_TITLE",
+"id": 1,
+"cards": [
+{
+"name": "card_0",
+"singleORcolumn": true,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "title",
+	"value": " ",
+    "type": "str",
+    "field_width": 80,
+	"id": true
+}
+]
+},
+
+{
+"name": "card_1",
+"singleORcolumn": true,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "lcid",
+	"value": 1,
+    "type": "int",
+    "field_width": 10,
+	"id": true
+},
+{
+	"name": "sfa",
+	"value": 1.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "sfo",
+	"value": 1.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "sfr",
+	"value": 1.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "offa",
+	"value": 0.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "offo",
+	"value": 0.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "offr",
+	"value": 0.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+}
+]
+},
+
+{
+"name": "card_2",
+"singleORcolumn": false,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "ai",
+	"value": [[], []],
+    "type": "float",
+    "field_width": 20,
+	"id": true
+},
+{
+	"name": "oi",
+	"value": [[], []],
+    "type": "float",
+    "field_width": 20,
+	"id": false
+},
+{
+	"name": "ri",
+	"value": [[], []],
+    "type": "float",
+    "field_width": 20,
+	"id": true
+},
+{
+	"name": "iflag",
+	"value": [0, 0],
+    "type": "int",
+    "field_width": 20,
+	"id": false
+}
+]
+}
+
+]
+}

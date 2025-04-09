@@ -1,0 +1,54 @@
+{
+"name": "DEFINE_CURVE_FLC_TITLE",
+"id": 1,
+"cards": [
+{
+"name": "card_0",
+"singleORcolumn": true,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "title",
+	"value": " ",
+    "type": "str",
+    "field_width": 80,
+	"id": true
+}
+]
+},
+
+{
+"name": "card_1",
+"singleORcolumn": true,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "lcid",
+	"value": 1,
+    "type": "int",
+    "field_width": 10,
+	"id": true
+},
+{
+	"name": "th",
+	"value": 0.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "n",
+	"value": 0.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+}
+]
+}
+
+]
+}

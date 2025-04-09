@@ -1,0 +1,169 @@
+{
+"name": "TEST_MIXED",
+"id": 0,
+"cards": [
+{
+"name": "card_1",
+"singleORcolumn": true,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "title",
+	"value": "Test of mixed variables without optional cards",
+	"type": "str",
+	"field_width": 90,
+	"id": false
+}
+]
+},
+
+{
+"name": "card_2",
+"singleORcolumn": true,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "kid",
+	"value": 1,
+    "type": "int",
+    "field_width": 10,
+	"id": true
+},
+{
+	"name": "v1",
+	"value": -1,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "v2",
+	"value": 1.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "v3",
+	"value": -1.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "v4",
+	"value": 12345678900.123456789,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "v5",
+	"value": -12345678900.123456789,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "v6",
+	"value": 0.00000000000123456789,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "v7",
+	"value": -0.00000000000123456789,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "v8",
+	"value": "random_long_string",
+    "type": "str",
+    "field_width": 10,
+	"id": false
+}
+]
+},
+
+{
+"name": "card_3",
+"singleORcolumn": false,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "vv0",
+	"value": [1, 2],
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "vv1",
+	"value": [-1, -2],
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "vv2",
+	"value": [1.0, 2.0],
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "vv3",
+	"value": [-1.0, -2.0],
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "vv4",
+	"value": [12345678900.123456789, 23456789100.234567891],
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "vv5",
+	"value": [-12345678900.123456789, -23456789100.234567891],
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "vv6",
+	"value": [0.00000000000123456789, 0.00000000000234567891],
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "vv7",
+	"value": [-0.00000000000123456789, -0.00000000000234567891],
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "vv8",
+	"value": ["random_string_one", "random_string_two"],
+    "type": "str",
+    "field_width": 10,
+	"id": false
+}
+]
+}
+
+]
+}

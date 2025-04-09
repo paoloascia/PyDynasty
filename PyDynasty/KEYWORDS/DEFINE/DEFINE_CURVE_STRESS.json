@@ -1,0 +1,137 @@
+{
+"name": "DEFINE_CURVE_STRESS",
+"id": 1,
+"cards": [
+{
+"name": "card_1",
+"singleORcolumn": true,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "lcid",
+	"value": 1,
+    "type": "int",
+    "field_width": 10,
+	"id": true
+},
+{
+	"name": "itype",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "p1",
+	"value": 0.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "p2",
+	"value": 0.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "p3",
+	"value": 0.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "p4",
+	"value": 0.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "p5",
+	"value": 0.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "p6",
+	"value": 0.0,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+}
+]
+},
+
+{
+"name": "card_2",
+"singleORcolumn": true,
+"requirements": {"always": false,
+				 "variable": "itype",
+				 "value": 11},
+"variables": [
+{
+	"name": "lcid",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "itype",
+	"value": 0,
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "p1",
+	"value": 1.4574E-43,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "p2",
+	"value": -1.2310E30,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "p3",
+	"value": -1.460E-42,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "p4",
+	"value": 1.9290E-39,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "p5",
+	"value": 2.1120E-39,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "p6",
+	"value": -1.2360E30,
+    "type": "float",
+    "field_width": 10,
+	"id": false
+}
+]
+}
+]
+}

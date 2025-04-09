@@ -1,0 +1,65 @@
+{
+"name": "ELEMENT_BEAM_SOURCE",
+"id": null,
+"cards": [
+{
+"name": "card_1",
+"singleORcolumn": false,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "bsid",
+	"value": [[], []],
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "bsnid",
+	"value": [[], []],
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "bseid",
+	"value": [[], []],
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "nele",
+	"value": [[], []],
+    "type": "int",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "lfed",
+	"value": [[], []],
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "fpull",
+	"value": [[], []],
+    "type": "float",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "lmin",
+	"value": [[], []],
+    "type": "float",
+    "field_width": 10,
+	"id": false
+}
+]
+}
+
+]
+}

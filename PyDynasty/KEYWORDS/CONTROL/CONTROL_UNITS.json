@@ -1,0 +1,44 @@
+{
+"name": "CONTROL_UNITS",
+"id": null,
+"cards": [
+{
+"name": "card_1",
+"singleORcolumn": true,
+"requirements": {"always": true,
+				 "variable": " ",
+				 "value": null},
+"variables": [
+{
+	"name": "length",
+	"value": "m",
+    "type": "str",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "time",
+	"value": "sec",
+    "type": "str",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "mass",
+	"value": "kg",
+    "type": "str",
+    "field_width": 10,
+	"id": false
+},
+{
+	"name": "temp",
+	"value": "k",
+    "type": "str",
+    "field_width": 10,
+	"id": false
+}
+]
+}
+
+]
+}
