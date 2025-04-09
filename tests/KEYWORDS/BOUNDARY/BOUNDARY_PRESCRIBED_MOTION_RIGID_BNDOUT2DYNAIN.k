@@ -1,0 +1,12 @@
+*BOUNDARY_PRESCRIBED_MOTION_RIGID_BNDOUT2DYNAIN
+$#     pid       dof       vad      lcid        sf       vid     death     birth
+         0         0         0         0       1.0         01.0000E+28       0.0
+$#    prmr
+          
+*BOUNDARY_PRESCRIBED_MOTION_RIGID_BNDOUT2DYNAIN
+$#     pid       dof       vad      lcid        sf       vid     death     birth
+         0         0         4         0         1         01.0000E+28         0
+$# offset1   offset2       lrb     node1     node2
+         0         0         0         0         0
+$#    prmr
+          
